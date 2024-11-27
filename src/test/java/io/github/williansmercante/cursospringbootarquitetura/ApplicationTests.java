@@ -1,4 +1,4 @@
-package io.github.williansmercante.CursoSpringBootArquitetura;
+package io.github.williansmercante.cursospringbootarquitetura;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
