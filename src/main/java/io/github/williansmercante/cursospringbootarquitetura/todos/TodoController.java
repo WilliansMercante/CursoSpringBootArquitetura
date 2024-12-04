@@ -18,11 +18,9 @@ public class TodoController {
 
     @PostMapping
     public TodoEntity salvar(@RequestBody TodoEntity todo) {
-
         try {
-
             return service.salvar(todo);
-        }catch (IllegalArgumentException e){
+        } catch (IllegalArgumentException e) {
             var mensagemErro = e.getMessage();
             throw new ResponseStatusException(HttpStatus.CONFLICT, mensagemErro);
         }

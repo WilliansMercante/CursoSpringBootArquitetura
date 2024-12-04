@@ -8,6 +8,7 @@ public class TodoValidator {
     private TodoRepository repository;
 
     public TodoValidator(TodoRepository repository) {
+
         this.repository = repository;
     }
 
